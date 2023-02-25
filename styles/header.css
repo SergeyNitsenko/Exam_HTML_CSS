@@ -1,0 +1,145 @@
+.header {
+  background-color: #ffffff;
+}
+
+.header__top {
+  margin: 0 auto;
+  min-height: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    width: 1060px;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    width: 525px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.header__list-link {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px; 
+    text-decoration: none; 
+    color: #274C5B;
+}
+
+.header__list-link--color {
+    color: #7EB693;
+}
+
+.basket {
+  min-width: 159px; 
+  height: 70px;
+  border-radius: 35px;
+  border: 1px solid #d4d4d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket__img {
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.basket__text {
+  padding-right: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28.8px;
+}
+
+.header__bottom {
+  background-image: url(../images/header_background.svg);
+  background-repeat: no-repeat;
+  min-height: 913px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-top {
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 64.8px;
+    color: #7EB693;
+}
+
+.header__content {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+    color: #274C5B; 
+    max-width: 496px;
+    padding-bottom: 30px; 
+}
+
+.button {
+  display: flex;
+  width: 219px;
+  height: 82px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #efd372;
+  border-radius: 16px;
+}
+
+.button__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #274C5B;
+    text-decoration: none;
+}
+
+.button__img {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.button__vector {
+  position: absolute;
+  padding-top: 3px;
+}
+
+
+
+
+
+
+.header__list-link:hover {
+    font-weight: 700;
+}
+
+.basket:hover {
+    background-color: #d4d4d4;
+}
+
+.basket:hover .basket__img {
+    transform: scale(1.1);
+    transition: .3s;
+    padding-bottom: 3px;
+}
+
+.button:hover .button__text {
+    transform: scale(1.1);
+    font-weight: 700;
+}
