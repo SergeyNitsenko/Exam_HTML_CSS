@@ -71,7 +71,7 @@
   justify-content: center;
 }
 
-.content-top {
+.text-top {
     font-family: 'Yellowtail', cursive;
     font-weight: 400;
     font-size: 36px;
@@ -79,7 +79,7 @@
     color: #7EB693;
 }
 
-.header__content {
+.header__text {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 70px;
@@ -91,7 +91,7 @@
 
 .button {
   display: flex;
-  width: 219px;
+  max-width: 219px;
   height: 82px;
   align-items: center;
   justify-content: space-around;
