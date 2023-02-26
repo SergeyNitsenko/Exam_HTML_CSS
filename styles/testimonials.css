@@ -1,0 +1,104 @@
+.testimonials {
+  background-image: url(../images/testimonials_background_img.svg);
+}
+
+.testimonialsBox {
+  min-height: 1248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialsBox__item {
+  min-height: 968px;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  outline: 1px solid salmon;
+}
+
+.testimonialsBox__itemHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialsBox__itemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialsBox__itemInfoText {
+  text-align: center;
+  max-width: 942px;
+  min-height: 118px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonialsBox__itemInfoName {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+}
+
+.testimonialsBox__itemInfoConsumer {
+  font-size: 14px;
+  line-height: 27px;
+  min-height: 123px;
+}
+
+.testimonialsBox__itemInfoLine {
+  background-color: #e0e0e0;
+  min-height: 2px;
+  width: 100%;
+  max-width: 966px;
+}
+
+.testimonialsBox__itemInfoAdvantages {
+  min-height: 350px;
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.testimonialsBox__itemInfoAdvantage {
+  border: 6px solid #7eb693;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.testimonialsBox__itemInfoAdvantageColorBorder {
+  border: 5px solid #ffffff;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialsBox__itemInfoAdvantageNumber {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54.6px;
+  color: #274C5B;
+}
+
+.testimonialsBox__itemInfoAdvantageTitle {
+   color: #274C5B; 
+   font-weight: 700;
+}
