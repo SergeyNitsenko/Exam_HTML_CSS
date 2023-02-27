@@ -1,0 +1,49 @@
+.eco {
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  min-height: 703.9px;
+  align-items: center;
+}
+
+.ecoBox {
+  position: absolute;
+  left: 45.83%;
+}
+
+.ecoBox__item {
+  width: 720px;
+  min-height: 623px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: center;
+  outline: 0px solid salmon;
+  border-radius: 30px 0px 0px 30px;
+  align-items: center;
+}
+
+.ecoBox__itemContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.ecoBox__itemContentTitle {
+    max-width: 620px;
+}
+
+.text-title--ecoColumn {
+    max-width: 301px;
+}
+
+.ecoBox__itemContentText {
+  max-width: 620px;
+}
+
+.ecoBox__itemContentTextTitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32.2px;
+    color: #274C5B;
+}

@@ -30,6 +30,8 @@
   width: 440px;
   height: 590px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
   margin: 10px;
 }
 

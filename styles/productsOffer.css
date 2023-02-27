@@ -1,0 +1,36 @@
+.productsOffer {
+  background-color: #274c5b;
+}
+
+.productsOfferBox {
+  min-height: 1060px;
+  align-items: center;
+  display: flex;
+}
+
+.productsOfferBox__item {
+  min-height: 780px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-title--productsOfferColor {
+color: #ffffff;
+}
+
+.productsOfferBox__itemHeaderButton--width {
+  min-width: 267px;
+}
+
+.productsOfferBox__itemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.productsOfferBox__itemOffer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

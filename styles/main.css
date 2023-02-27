@@ -4,6 +4,9 @@
 @import url(about.css);
 @import url(ourProducts.css);
 @import url(testimonials.css);
+@import url(productsOffer.css);
+@import url(eco.css);
+@import url(advantages.css);
 
 * {
   margin: 0;
@@ -18,6 +21,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 32.4px;
+  color: #525C60;
 }
 
 .container {
