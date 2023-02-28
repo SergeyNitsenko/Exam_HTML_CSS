@@ -1,0 +1,59 @@
+.subscribe {
+  background-color: #ffffff;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribeBox {
+  background-image: url(../images/subscribe_background_img.svg);
+  min-height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.subscribeBox__item {
+  max-width: 1240px;
+  max-height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subscribeBox__itemTitle {
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  max-width: 345px;
+}
+
+.subscribeBox__itemContent {
+  width: 100%;
+  max-width: 557px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subscribeBox__itemContentInputWidth {
+  min-width: 350px;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  color: #525c60;
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+}
+
+.button__subscribe--width {
+  min-width: 197px;
+}
