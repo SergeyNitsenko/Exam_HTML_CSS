@@ -9,7 +9,8 @@
 
 .advantages__item {
   background-image: url(../images/advantages__img1.svg);
-  width: 460px;
+  max-width: 460px;
+  width: 100%;
   height: 580px;
   display: flex;
   justify-content: center;

@@ -17,6 +17,26 @@
   justify-content: space-between;
 }
 
+.burger-menu {
+  position: relative;
+  background-color: #F9D9EB;
+  width: 30px;
+}
+
+#burger-menu {
+  display: none;
+}
+
+.label {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+}
+
 .header__list {
   display: flex;
   width: 525px;
@@ -61,8 +81,9 @@
 }
 
 .header__bottom {
-  background-image: url(../images/header_background.svg);
+  background: url(../images/header_background.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
   min-height: 913px;
   max-width: 1440px;
   margin: 0 auto;

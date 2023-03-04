@@ -1,5 +1,6 @@
 .testimonials {
   background-image: url(../images/testimonials_background_img.svg);
+  background-size: 100%;
 }
 
 .testimonialsBox {

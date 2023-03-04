@@ -25,7 +25,8 @@
 .offer2 {
     background-image: url(../images/offer2_background.svg);
     min-height: 378px;
-    min-width: 665px;
+    max-width: 665px;
+    width: 100%;
     background-repeat: no-repeat;
     margin: 5px;
     display: flex;

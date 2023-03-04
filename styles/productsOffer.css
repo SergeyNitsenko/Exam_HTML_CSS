@@ -6,6 +6,7 @@
   min-height: 1060px;
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 .productsOfferBox__item {
@@ -31,6 +32,6 @@ color: #ffffff;
 
 .productsOfferBox__itemOffer {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
